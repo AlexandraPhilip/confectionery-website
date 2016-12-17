@@ -2,6 +2,10 @@ html {
   font-family: 'Slabo 13px', serif;
 }
 
+.bg {
+  background-image: url("../images/worm.jpg");
+}
+
 .masthead {
   display: block;
 }
@@ -60,7 +64,6 @@ h3 {
 
 .nav a:hover,
 .nav a:focus {
-  background-color:;
   color: #0ee0e5;
 }
 
@@ -75,10 +78,6 @@ h3 {
   text-align: center;
 }
 
-.products {
-  padding: em;
-}
-
 .about-p {
   padding-left: 1em;
   padding-right: 1em;
@@ -87,10 +86,7 @@ h3 {
 
 .product-card {
   display: block;
-
   text-align: center;
-  margin: 1em;
-
 }
 
 .products-list {
@@ -102,6 +98,10 @@ h3 {
   position: relative;
   text-align: center;
   display: block;
+}
+
+.wiwiwi {
+  position: relative;
 }
 
 .contact {
@@ -122,7 +122,7 @@ h3 {
 }
 
 .discount {
-  display: block;
+
 }
 
 main {
@@ -133,7 +133,6 @@ main {
 .btn {
   background-color: #0ee0e5;
   border-color: #0ee0e5;
-  color: #fff;
 }
 
 .btn:hover {
@@ -145,6 +144,9 @@ main {
   background-color: #113c00;
   color: #fff;
 }
+.centered {
+  text-align: center;
+}
 
 @media only screen and (min-width: 35em) {
 
@@ -153,16 +155,13 @@ main {
     display: inline-block;
     padding: 1em;
     text-align: center;
-    margin: 1em;
-
-
+  }
+  .max-width {
+    width: 30em;
+    margin: auto;
   }
 
-  .background {
-    background-color: transparent;
-    background-image: linear-gradient(to top, rgba(17, 60, 0, 0), rgba(17, 60, 0, .8));
+  .wiwiwi {
+    width: 33%;
   }
-}
-
-
 }
