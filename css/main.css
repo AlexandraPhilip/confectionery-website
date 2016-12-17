@@ -19,7 +19,8 @@ a:hover {
 }
 
 h1 {
-  color: #fff;
+  color: #0ee0e5;
+  text-align: center;
 }
 
 h2 {
@@ -137,7 +138,7 @@ main {
 }
 
 .footer {
-  background-color: #113c00;
+  background-color: #f2717a;
   color: #fff;
 }
 
