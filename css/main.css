@@ -51,7 +51,7 @@ h3 {
   width: 30%;
   z-index: 10000;
   left: 35.333%;
-  right: 33.333%
+  right: 33.333%;
 
 }
 
@@ -118,10 +118,6 @@ h3 {
 
 .blue {
   color: #0ee0e5;
-
-}
-
-.discount {
 
 }
 
